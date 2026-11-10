@@ -1,32 +1,13 @@
-# React + TypeScript + Vite
+# ポケモン図鑑
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 概要
+ポケモンの一覧と詳細を閲覧できるアプリです。日本語名・画像・タイプ・特性・種族値を確認できます。
 
-Currently, two official plugins are available:
+## 使用技術
+React、TypeScript、Vite、Tailwind CSS、TanStack Query
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 起動方法
+プロジェクトのフォルダで npm install、続いて npm run dev を実行する
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 公開URL
+[ポケモン図鑑を見る](https://lanirastyt.github.io/react-pokemon-zukan/)
